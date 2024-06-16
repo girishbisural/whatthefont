@@ -1,0 +1,36 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #ff0000, #ffffff, #0000ff); /* Gradient from red to white to blue */
+    margin: 0;
+    padding: 0;
+    color: #000000; /* Black text color for readability */
+    text-align: center; /* Center all text in the body */
+}
+
+.lyrics {
+    max-width: 600px;
+    margin: 20px auto; /* Add some margin to center the lyrics container */
+    padding: 20px;
+    background-color: rgba(0, 0, 102, 0.9); /* Dark blue background with slight transparency */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center all text inside the lyrics container */
+}
+
+/* Title styling */
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #ff007f; /* Hot pink color */
+}
+
+/* Lyrics styling */
+p {
+    font-family: 'Arial', sans-serif; /* Use Arial font for lyrics */
+    font-size: 18px; /* Reduced font size for lyrics */
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #ffffff; /* White color for lyrics */
+}
